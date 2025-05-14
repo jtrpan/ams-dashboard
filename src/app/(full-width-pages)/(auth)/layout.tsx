@@ -20,17 +20,19 @@ export default function AuthLayout({
             <div className="relative items-center justify-center  flex z-1">
               {/* <!-- ===== Common Grid Shape Start ===== --> */}
               <GridShape />
-              <div className="flex flex-col items-center max-w-xs">
-                <Link href="/" className="block mb-4">
+              <div className="flex flex-col items-center gap-2 lg:gap-3">
+                <Link href="/" className="block">
                   <Image
-                    width={231}
-                    height={48}
-                    src="./images/logo/auth-logo.svg"
-                    alt="Logo"
+                      src="/images/logo/logo-white.png"
+                      alt="Logo"
+                      width={800}
+                      height={200}
+                      className="w-[300px] md:w-[400px] lg:w-[500px] h-auto block"
+                      priority
                   />
                 </Link>
-                <p className="text-center text-gray-400 dark:text-white/60">
-                  Free and Open-Source Tailwind CSS Admin Dashboard Template
+                <p className="-mt-12 text-center text-gray-400 dark:text-white/60 text-base lg:text-lg">
+                  Welcome to the AMS Merchant Dashboard!
                 </p>
               </div>
             </div>
