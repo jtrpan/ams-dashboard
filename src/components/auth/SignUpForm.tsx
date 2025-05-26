@@ -32,7 +32,7 @@ export default function SignUpForm() {
           </div>
           <div>
             <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-5">
-              <button className="inline-flex items-center justify-center gap-3 py-3 text-sm font-normal text-gray-700 transition-colors bg-gray-100 rounded-lg px-7 hover:bg-gray-200 hover:text-gray-800 dark:bg-white/5 dark:text-white/90 dark:hover:bg-white/10">
+              <button className="inline-flex items-center justify-center gap-3 py-3 text-sm font-normal text-gray-700 transition-colors bg-gray-100 rounded-lg px-7 min-w-[220px] hover:bg-gray-200 hover:text-gray-800 dark:bg-white/5 dark:text-white/90 dark:hover:bg-white/10">
                 <svg
                   width="20"
                   height="20"
@@ -59,18 +59,18 @@ export default function SignUpForm() {
                 </svg>
                 Sign up with Google
               </button>
-              <button className="inline-flex items-center justify-center gap-3 py-3 text-sm font-normal text-gray-700 transition-colors bg-gray-100 rounded-lg px-7 hover:bg-gray-200 hover:text-gray-800 dark:bg-white/5 dark:text-white/90 dark:hover:bg-white/10">
+              <button className="inline-flex items-center justify-center gap-3 py-3 text-sm font-normal text-gray-700 transition-colors bg-gray-100 rounded-lg px-7 min-w-[220px] hover:bg-gray-200 hover:text-gray-800 dark:bg-white/5 dark:text-white/90 dark:hover:bg-white/10">
                 <svg
-                  width="21"
-                  className="fill-current"
-                  height="20"
-                  viewBox="0 0 21 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 32 32"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="#7BB32E"
+                    preserveAspectRatio="xMidYMid meet"
                 >
-                  <path d="M15.6705 1.875H18.4272L12.4047 8.75833L19.4897 18.125H13.9422L9.59717 12.4442L4.62554 18.125H1.86721L8.30887 10.7625L1.51221 1.875H7.20054L11.128 7.0675L15.6705 1.875ZM14.703 16.475H16.2305L6.37054 3.43833H4.73137L14.703 16.475Z" />
+                  <path d="M11.119 8.989c0 .975-.791 1.766-1.766 1.766-.975 0-1.766-.791-1.766-1.766s.791-1.766 1.766-1.766c.975 0 1.766.791 1.766 1.766zm7.133 1.766c.975 0 1.766-.791 1.766-1.766s-.791-1.766-1.766-1.766c-.975 0-1.766.791-1.766 1.766s.791 1.766 1.766 1.766zm10.66 17.133.399 3.867-3.531-1.889a11.95 11.95 0 0 1-4.488.879c-4.982 0-9.16-3.037-10.29-7.129a13.66 13.66 0 0 1-2.76-.759L3.74 25.43l.427-4.117c-2.84-2.168-4.633-5.332-4.633-8.852C-.466 5.928 5.7.632 13.306.632c7.606 0 13.771 5.296 13.771 11.829 0 .586-.05 1.162-.145 1.727 2.701 1.695 4.46 4.481 4.46 7.63 0 2.525-1.134 4.82-2.977 6.501zm-20.042-6.684c.6.226 1.215.41 1.84.551a7.99 7.99 0 0 1-.01-.368c0-5.17 4.742-9.357 10.593-9.357 1.596 0 3.11.31 4.467.872.028-.286.046-.58.046-.872 0-5.548-5.385-10.064-12.006-10.064S1.3 6.558 1.3 12.106c0 1.426.35 2.807 1.042 4.103.682 1.275 1.656 2.402 2.899 3.348l.787.6-.102.985-.085.809 1.07-.572.71-.378zm18.355-7.57c.067.04.134.08.2.124-.067-.042-.134-.085-.2-.124zm-.2-.12c.032.031.068.069.1.1a.365.365 0 0 0-.1-.1zm-.205-.113c.033.03.067.07.1.1a.365.365 0 0 0-.1-.1zm-.205-.096c.036.02.064.04.1.06a.365.365 0 0 0-.1-.06zm-.196-.093.06.03zm-.199-.092c.01 0 .01.01.02.01a.365.365 0 0 0-.02-.01zm3.904 8.269c0-4.188-3.958-7.592-8.828-7.592s-8.828 3.404-8.828 7.592c0 4.188 3.958 7.592 8.828 7.592 1.335 0 2.617-.25 3.81-.745l.773-.318.738.396.597.32-.057-.558-.092-.886.657-.6c1.546-1.42 2.4-3.266 2.4-5.201zm-12.218-3.305c-.78 0-1.412.632-1.412 1.412 0 .78.632 1.412 1.412 1.412.78 0 1.412-.632 1.412-1.412 0-.78-.632-1.412-1.412-1.412zm6.78 0c-.78 0-1.412.632-1.412 1.412 0 .78.632 1.412 1.412 1.412.78 0 1.412-.632 1.412-1.412 0-.78-.632-1.412-1.412-1.412z" />
                 </svg>
-                Sign up with X
+                Sign up with WeChat
               </button>
             </div>
             <div className="relative py-3 sm:py-5">
